@@ -364,7 +364,7 @@ body[data-layout=horizontal] .footer {
 }
 
 .vertical-menu {
-    width: 200px;
+    width: 180px;
     z-index: 1002;
     background: #fff;
     bottom: 0;
@@ -376,7 +376,7 @@ body[data-layout=horizontal] .footer {
 }
 
 .main-content {
-    margin-left: 200px;
+    margin-left: 180px;
     overflow: hidden
 }
 

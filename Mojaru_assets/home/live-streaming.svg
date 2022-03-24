@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.664" height="20.945" viewBox="0 0 29.664 20.945">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #101010;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="live-streaming" transform="translate(-2.5 -5.292)">
+    <path id="Path_16567" data-name="Path 16567" class="cls-1" d="M13.964,8.5a5.464,5.464,0,1,0,5.464,5.464A5.464,5.464,0,0,0,13.964,8.5Z" transform="translate(3.368 1.8)"/>
+    <path id="Path_16568" data-name="Path 16568" class="cls-1" d="M10.7,9.48a7.45,7.45,0,0,0,0,10.313L8.457,21.97a10.572,10.572,0,0,1,0-14.667ZM20.6,19.793a7.45,7.45,0,0,0,0-10.313L22.84,7.3a10.572,10.572,0,0,1,0,14.667Z" transform="translate(1.684 1.128)"/>
+    <path id="Path_16569" data-name="Path 16569" class="cls-1" d="M9.051,7.5a11.67,11.67,0,0,0,0,16.525l-2.206,2.21a14.793,14.793,0,0,1,0-20.945ZM25.613,24.028a11.67,11.67,0,0,0,0-16.525l2.206-2.21a14.793,14.793,0,0,1,0,20.945Z" transform="translate(0 0)"/>
+  </g>
+</svg>

@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesdesign" name="author" />
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- custome css -->
+    <link rel="stylesheet" href="dashboard-style.css">
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font icon script -->
+    <script src="https://kit.fontawesome.com/1a01ea0cc4.js" crossorigin="anonymous"></script>
+
+    <style>
+        
+
+        
+    </style>
+
+</head>
+
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <!-- Top bar -->
+    <div>
+        <header id="page-topbar" style="box-shadow: none;">
+            <div class=" bg_color_blue">
+                <div class="container-fluid d-flex justify-content-between pt-2 px-5">
+                    <div>
+                        <i class="fa-brands fa-facebook ps-3 text-white"></i>
+                        <i class="fa-brands fa-twitter ps-3 text-white"></i>
+                        <i class="fa-brands fa-instagram ps-3 text-white"></i>
+                        <i class="fa-brands fa-youtube ps-3 text-white"></i>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-envelope-open pe-2 pt-1 text-white"></i>
+                        <p class="text-white">info@mojaru.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar -->
+            <div class="navbar-header">
+                <div class="d-flex ">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box" >
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="Mojaru_assets/home/logo.png" alt="" height="40">
+                            </span>
+                            <span class="logo-lg pt-2">
+                                <img src="Mojaru_assets/home/logo.png" alt="" height="65">
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Button & Navbar option -->                    
+                    <div class="d-flex justify-content-between ">
+                        <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect"
+                            id="vertical-menu-btn">
+                            <i class="mdi mdi-backburger"></i>
+                        </button>
+                        <div class="d-flex justify-content-center align-items-center fw-bold text-nav">                            
+                            <div class="option"><a href="">হোম</a></div>
+                            <div class="option"><a href="">একাডেমিক</a></div>
+                            <div class="option"><a href="">স্কিলস</a></div>
+                            <div class="option"><a href="">জিনিয়াস</a></div>
+                            <div class="option"><a href="">চাকরির প্রস্তুতি</a></div>
+                            <div class="option"><a href="">ভর্তি প্রস্তুতি</a></div>
+                            <div class="option"><a href="">ই-বুক</a></div>                                                   
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar rignt site -->
+                <div class="d-flex align-items-center navbar-right">
+                    <div><img src="Mojaru_assets/home/bell.png" width="24px" height="24px" alt=""></div>
+                    <div class="user-icon"><img src="Mojaru_assets/home/user.png" width="24px" height="24px" alt=""></div>
+                    <div class="profile_dropdown d-flex align-items-center ">
+                        <ul class="profile-ul">
+                            <li class="profile-li">
+                                <span>
+                                    <h5 class="user-name">user name <i class="fa-solid fa-angle-down"></i></h5>
+                                </span>
+                                <!-- <ul class="dropdown">
+                                        <li><a href="#">প্রোফাইল</a></li>
+                                        <li><a href="#">সেটিংস</a></li>
+                                    </ul> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </header>
+
+        <!-- Left Sidebar Start -->
+        <div class="vertical-menu">
+            <div data-simplebar class="h-100 p-0 pt-5 sidebar">
+                <ul class="d-flex justify-content-center p-0" style="list-style: none;">
+                    <div class="sider-bar-items">
+                        <li>
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/dashboard.svg" alt=""
+                                    class="d-flex justify-content-center sidebar-icon">
+                                <p class="pt-2 text-dark fw-bold text-center">ড্যাশবোর্ড</p>
+                            </a>
+                        </li>
+
+                        <li class="pt-3">
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/live-streaming.svg" alt=""
+                                    class="d-flex justify-content-center sidebar-icon">
+                                <p class="pt-2 text-dark fw-bold text-center">লাইভ ক্লাস</p>
+                            </a>
+                        </li>
+
+                        <li class="pt-3">
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/record.svg" alt="" style=""
+                                    class="d-flex justify-content-center sidebar-icon">
+                                <p class="pt-2 text-dark fw-bold text-center">রেকর্ডেড ক্লাস</p>
+                            </a>
+                        </li>
+
+                        <li class="pt-3">
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/calendar.svg" alt="" style=""
+                                    class="d-flex justify-content-center sidebar-icon">
+                                <p class="pt-2 text-dark fw-bold text-center">ক্যালেন্ডার</p>
+                            </a>
+                        </li>
+
+                        <li class="pt-3">
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/course.svg" alt="" style=""
+                                    class="d-flex justify-content-center sidebar-icon">
+                                <p class="pt-2 text-dark fw-bold text-center">লেটেস্ট কোর্স</p>
+                            </a>
+                        </li>
+                        <li class="pt-3">
+                            <a href="" class="">
+                                <img src="Mojaru_assets/home/profile.png" alt=" " width="130px" height="100px"
+                                    style=" margin-left: auto; margin-right: auto;"
+                                    class="d-flex justify-content-center profile-img">
+                                <p class="pt-2 text-dark fw-bold text-center">প্রোফাইল</p>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        
+        <!-- Start right Content here -->
+        <div class="main-content" style="background-color: #F4F1EB;">
+            <div class="page-content p-0">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-9 p-0">
+                            <div class="live-class-section">
+                                <div class="mid-section" >
+                                    <h4 class="fw-bold">আজকের লাইভ ক্লাস</h4>
+
+                                    <!-- Swiper -->
+                                    <div class="swiper mySwiper pt-4 pe-3" >
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-2" style="border-radius: 1rem;">
+                                                        <div class="row pt-2 ps-2">
+                                                            <div class="col-lg-4 col-md-3">
+                                                                <img src="Mojaru_assets/home/live_image_course.png"
+                                                                    alt=""   class="img-fluid">
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-9 d-flex align-items-center">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                    <div class="d-flex">
+                                                                        <img src="Mojaru_assets/home/calendar_card_org.svg"
+                                                                            alt="">
+                                                                        <span class="ps-2" style="color: #F27321;">10
+                                                                            March, 2022 | 03:00 pm</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pt-4 pb-4">
+                                                            <div class="col-lg-12  ps-4">
+                                                                <div class="row rounded-pill"
+                                                                    style="background-color: #532D80;">
+                                                                    <div class="col-lg-3 d-flex align-items-center"
+                                                                        style="border-right: 2px solid rgba(211, 196, 229, .37);">
+                                                                        <p class="text-center mb-0 ps-3 text-white">
+                                                                            মেন্টর</p>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <img src="Mojaru_assets/home/teacher_image.png"
+                                                                            alt="" height="45" width="45"
+                                                                            style="border-radius: 50%; padding: 5px;">
+                                                                        <span class="text-white">Md. Fahad
+                                                                            Hossain</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-2" style="border-radius: 1rem;">
+                                                        <div class="row pt-2 ps-2">
+                                                            <div class="col-lg-4 col-md-3">
+                                                                <img src="Mojaru_assets/home/live_image_course.png"
+                                                                    alt=""  class="img-fluid">
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-9 d-flex align-items-center">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                    <div class="d-flex">
+                                                                        <img src="Mojaru_assets/home/calendar_card_org.svg"
+                                                                            alt="">
+                                                                        <span class="ps-2" style="color: #F27321">10
+                                                                            March, 2022 | 03:00 pm</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pt-4 pb-4">
+                                                            <div class="col-lg-12  ps-4">
+                                                                <div class="row rounded-pill"
+                                                                    style="background-color: #532D80;">
+                                                                    <div class="col-lg-3 d-flex align-items-center"
+                                                                        style="border-right: 2px solid rgba(211, 196, 229, .37);">
+                                                                        <p class="text-center mb-0 ps-3 text-white">
+                                                                            মেন্টর</p>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <img src="Mojaru_assets/home/teacher_image.png"
+                                                                            alt="" height="45" width="45"
+                                                                            style="border-radius: 50%; padding: 5px;">
+                                                                        <span class="text-white">Md. Fahad
+                                                                            Hossain</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-2" style="border-radius: 1rem;">
+                                                        <div class="row pt-2 ps-2">
+                                                            <div class="col-lg-4 col-md-3">
+                                                                <img src="Mojaru_assets/home/live_image_course.png"
+                                                                    alt=""  class="img-fluid">
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-9 d-flex align-items-center">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                    <div class="d-flex">
+                                                                        <img src="Mojaru_assets/home/calendar_card_org.svg"
+                                                                            alt="">
+                                                                        <span class="ps-2" style="color: #F27321">10
+                                                                            March, 2022 | 03:00 pm</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pt-4 pb-4">
+                                                            <div class="col-lg-12  ps-4">
+                                                                <div class="row rounded-pill"
+                                                                    style="background-color: #532D80;">
+                                                                    <div class="col-lg-3 d-flex align-items-center"
+                                                                        style="border-right: 2px solid rgba(211, 196, 229, .37);">
+                                                                        <p class="text-center mb-0 ps-3 text-white">
+                                                                            মেন্টর</p>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <img src="Mojaru_assets/home/teacher_image.png"
+                                                                            alt="" height="45" width="45"
+                                                                            style="border-radius: 50%; padding: 5px;">
+                                                                        <span class="text-white">Md. Fahad
+                                                                            Hossain</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-2" style="border-radius: 1rem;">
+                                                        <div class="row pt-2 ps-2">
+                                                            <div class="col-lg-4 col-md-3">
+                                                                <img src="Mojaru_assets/home/live_image_course.png"
+                                                                    alt=""  class="img-fluid">
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-9 d-flex align-items-center">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                    <div class="d-flex">
+                                                                        <img src="Mojaru_assets/home/calendar_card_org.svg"
+                                                                            alt="">
+                                                                        <span class="ps-2" style="color: #F27321">10
+                                                                            March, 2022 | 03:00 pm</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pt-4 pb-4">
+                                                            <div class="col-lg-12  ps-4">
+                                                                <div class="row rounded-pill"
+                                                                    style="background-color: #532D80;">
+                                                                    <div class="col-lg-3 d-flex align-items-center"
+                                                                        style="border-right: 2px solid rgba(211, 196, 229, .37);">
+                                                                        <p class="text-center mb-0 ps-3 text-white">
+                                                                            মেন্টর</p>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <img src="Mojaru_assets/home/teacher_image.png"
+                                                                            alt="" height="45" width="45"
+                                                                            style="border-radius: 50%; padding: 5px;">
+                                                                        <span class="text-white">Md. Fahad
+                                                                            Hossain</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-2" style="border-radius: 1rem;">
+                                                        <div class="row pt-2 ps-2">
+                                                            <div class="col-lg-4 col-md-3">
+                                                                <img src="Mojaru_assets/home/live_image_course.png"
+                                                                    alt=""  class="img-fluid">
+                                                            </div>
+                                                            <div class="col-lg-8 col-md-9 d-flex align-items-center">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                    <div class="d-flex">
+                                                                        <img src="Mojaru_assets/home/calendar_card_org.svg"
+                                                                            alt="">
+                                                                        <span class="ps-2" style="color: #F27321">10
+                                                                            March, 2022 | 03:00 pm</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pt-4 pb-4">
+                                                            <div class="col-lg-12  ps-4">
+                                                                <div class="row rounded-pill"
+                                                                    style="background-color: #532D80;">
+                                                                    <div class="col-lg-3 d-flex align-items-center"
+                                                                        style="border-right: 2px solid rgba(211, 196, 229, .37);">
+                                                                        <p class="text-center mb-0 ps-3 text-white">
+                                                                            মেন্টর</p>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <img src="Mojaru_assets/home/teacher_image.png"
+                                                                            alt="" height="45" width="45"
+                                                                            style="border-radius: 50%; padding: 5px;">
+                                                                        <span class="text-white">Md. Fahad
+                                                                            Hossain</span>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+        
+
+                                    <h4 class="fw-bold pt-5">আগামী ক্লাস সমূহ</h4>
+
+
+                                    <div class="swiper mySwiper pt-4 next-class pe-3" >
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-3" style="border-radius: 1rem;">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="Mojaru_assets/home/class_2nd.png" alt=""
+                                                                    height="55" width="55">
+                                                            </div class="">
+                                                            <div class="col-lg-9 d-flex align-items-center p-0">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div style="width: 85%;">
+                                                                    <p class="text-white text-center"
+                                                                        style="background-color: #F27321; border-radius: .3rem;">
+                                                                        HSC '22 Revision Course Science</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <img src="Mojaru_assets/home/teacher_image.png" alt=""
+                                                                height="60" width="60" style="border-radius: .5rem;">
+                                                            <div class="ps-3 d-flex align-items-center"
+                                                                style=" color:#532D80">
+                                                                <div>
+                                                                    <p class="m-0">
+                                                                        মেন্টর:
+                                                                    </p>
+                                                                    <p class="m-0" style="font-weight: 700;">
+                                                                        Md. Fahad Hossain
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center pt-3 pb-4"
+                                                            style="color: #D0202F">
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2 pe-2">03 : 00 PM - 04.30 PM</span>
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2">10
+                                                                March</span>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-3" style="border-radius: 1rem;">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="Mojaru_assets/home/class_2nd.png" alt=""
+                                                                    height="55" width="55">
+                                                            </div class="">
+                                                            <div class="col-lg-9 d-flex align-items-center p-0">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div style="width: 85%;">
+                                                                    <p class="text-white text-center"
+                                                                        style="background-color: #F27321; border-radius: .3rem;">
+                                                                        HSC '22 Revision Course Science</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <img src="Mojaru_assets/home/teacher_image.png" alt=""
+                                                                height="60" width="60" style="border-radius: .5rem;">
+                                                            <div class="ps-3 d-flex align-items-center"
+                                                                style=" color:#532D80">
+                                                                <div>
+                                                                    <p class="m-0">
+                                                                        মেন্টর:
+                                                                    </p>
+                                                                    <p class="m-0" style="font-weight: 700;">
+                                                                        Md. Fahad Hossain
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center pt-3 pb-4"
+                                                            style="color: #D0202F">
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2 pe-2">03 : 00 PM - 04.30 PM</span>
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2">10
+                                                                March</span>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-3" style="border-radius: 1rem;">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="Mojaru_assets/home/class_2nd.png" alt=""
+                                                                    height="55" width="55">
+                                                            </div class="">
+                                                            <div class="col-lg-9 d-flex align-items-center p-0">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div style="width: 85%;">
+                                                                    <p class="text-white text-center"
+                                                                        style="background-color: #F27321; border-radius: .3rem;">
+                                                                        HSC '22 Revision Course Science</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <img src="Mojaru_assets/home/teacher_image.png" alt=""
+                                                                height="60" width="60" style="border-radius: .5rem;">
+                                                            <div class="ps-3 d-flex align-items-center"
+                                                                style=" color:#532D80">
+                                                                <div>
+                                                                    <p class="m-0">
+                                                                        মেন্টর:
+                                                                    </p>
+                                                                    <p class="m-0" style="font-weight: 700;">
+                                                                        Md. Fahad Hossain
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center pt-3 pb-4"
+                                                            style="color: #D0202F">
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2 pe-2">03 : 00 PM - 04.30 PM</span>
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2">10
+                                                                March</span>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="swiper-slide ps-3">
+                                                <div>
+                                                    <div class="row bg-light p-3" style="border-radius: 1rem;">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <img src="Mojaru_assets/home/class_2nd.png" alt=""
+                                                                    height="55" width="55">
+                                                            </div class="">
+                                                            <div class="col-lg-9 d-flex align-items-center p-0">
+                                                                <div>
+                                                                    <h5 class="fw-bold">জীববিজ্ঞান ১ম পত্র</h5>
+                                                                    <p class="text-black-50">কোষ বিভাজন</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div style="width: 85%;">
+                                                                    <p class="text-white text-center"
+                                                                        style="background-color: #F27321; border-radius: .3rem;">
+                                                                        HSC '22 Revision Course Science</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <img src="Mojaru_assets/home/teacher_image.png" alt=""
+                                                                height="60" width="60" style="border-radius: .5rem;">
+                                                            <div class="ps-3 d-flex align-items-center"
+                                                                style=" color:#532D80">
+                                                                <div>
+                                                                    <p class="m-0">
+                                                                        মেন্টর:
+                                                                    </p>
+                                                                    <p class="m-0" style="font-weight: 700;">
+                                                                        Md. Fahad Hossain
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center pt-3 pb-4"
+                                                            style="color: #D0202F">
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2 pe-2">03 : 00 PM - 04.30 PM</span>
+                                                            <img src="Mojaru_assets/home/calendar_card.svg" alt="">
+                                                            <span class="ps-2">10
+                                                                March</span>
+                                                        </div>
+                                                        <hr>
+                                                        <a href="#" style="text-decoration: none;"
+                                                            class="text-dark text-center">আরো দেখুন</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3  analysis-section">
+                            <div class="row" style="padding-right: 4rem;">
+                                <div class="col-lg-12 w-100 p-0">
+
+                                    <div
+                                        style="background-color: #FFCE39; border-radius: 1rem; background-image: url('Mojaru_assets/home/morning_illustration.png'); background-repeat: no-repeat; background-position: right; background-size:contain; padding:.5rem .5rem;">
+                                        <div class="p-3 pb-0" style="">
+                                            <h3>শুভ সকাল !</h3>
+                                            <span>লাইভ ক্লাসের </span><br>
+                                            <span>খুঁটিনাটি সব জেনে নাও ড্যাশবোর্ডে</span>
+
+                                            <p class="pt-4">Today's Date: <span class="px-2 py-1 rounded-3 ms-2"
+                                                    style="background-color: rgba(255, 255, 255, .60);"> <span><img
+                                                            src="Mojaru_assets/home/calendar_card.svg" alt=""></span> 10
+                                                    March,
+                                                    2022</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 w-100 pt-2">
+                                    <div class="row " style="background-color: #F2D1D4; border-radius: 1rem;">
+                                        <div class="col-lg-7 d-flex align-items-center">
+                                            <div class="ps-3">
+                                                <img src="Mojaru_assets/home/topic_.svg" alt=""><br>
+                                                <p class="fs-5 fw-bold">Total Topic Learned</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+
+                                            <div class="flex-wrapper">
+                                                <div class="single-chart">
+                                                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                                                        <path class="circle-bg " d="M18 2.0845
+                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <path class="circle" stroke-dasharray="40, 100" d="M18 2.0845
+                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                        <text x="18" y="20.35" class="percentage fw-bold">0 /
+                                                            3466</text>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 w-100 pt-2 ">
+
+
+                                    <div class="row">
+                                        <div class="col-lg-4 p-0">
+                                            <div class="ps-3 pt-2 pb-1 pe-2"
+                                                style="background-color:#F1D3BF ;border-radius: 1rem;">
+                                                <h1 class="text-center" style="color: #F27321;">02<span
+                                                        class="fs-5">min</span></h1>
+                                                <p class="text-center">Avg Time/ Question</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 pe-0">
+                                            <div class="ps-3 pt-2 pb-1 pe-2"
+                                                style="background-color:#D3C4E5 ;border-radius: 1rem;">
+                                                <h1 class="text-center" style="color: #532D80;">28/1813</h1>
+                                                <p class="text-center">Tests/Exams Attempted</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 w-100 pt-2 ps-0 pe-0">
+                                    <div class="p-0">
+                                        <div
+                                            style="background-color: white; padding: 1rem 0 .5rem .3rem; border-radius: 1rem;">
+                                            <p class="ps-2">শেখার জন্য গড় ঘন্টা ব্যয়</p>
+                                            <canvas id="myChart" aria-label="chart" role="img"></canvas>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+            <!-- end main content-->
+        </div>
+
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <!-- <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+
+        <script src="assets/js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            /* var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2.3,
+                spaceBetween: 20,
+                centeredSlides: true,
+	            grabCursor: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            }); 
+ */
+            var swiper = new Swiper('.swiper', {
+                slidesPerView: 2.04,
+                spaceBetween: 20,
+                grabCursore: true,
+                loop: false,
+
+            });
+
+            var swiper = new Swiper('.next-class', {
+                slidesPerView: 2.2,
+                spaceBetween: 20,
+                grabCursore: true,
+                loop: false,
+
+            });
+
+            var ctx = document.getElementById('myChart').getContext('2d');
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov',
+                        'Dec'
+                    ],
+                    datasets: [{
+                        data: [17, 13, 21, 18, 20, 17, 13, 21, 18, 20, 8, 12],
+                        backgroundColor: [
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00',
+                            '#EC5D00'
+                        ],
+                        borderRadius: 5,
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false,
+                            }
+                        },
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+
+                /*         options: {
+                    scales: {
+                      x: {
+                        grid: {
+                          display: false
+                        }
+                      },
+                    }
+                  } */
+
+            });
+        </script>
+
+</body>
+
+</html>

@@ -318,35 +318,35 @@ ul li ul.dropdown li {
 /* divided row */
 @media only screen and (min-width: 1732px) {
     .live-class-section{
-        width: 65%;
+        width: 66%;
     }    
 }
 
 @media only screen and (min-width:1525px) and (max-width: 1731px){
     .live-class-section{
-        width: 64%;
+        width: 65%;
     }  
 }
 @media only screen and (min-width:1350px) and (max-width: 1524px){
     .live-class-section{
-        width: 63%;
+        width: 64%;
     }  
 }
 
 @media only screen and (min-width:1235px) and (max-width: 1349px){
     .live-class-section{
-        width: 62%;
+        width: 63%;
     }  
 }
 
 @media only screen and (min-width: 1120px) and (max-width: 1234px){
     .live-class-section{
-        width: 61%;
+        width: 62%;
     }  
 }
 @media only screen and (min-width: 11px) and (max-width: 1119px){
     .live-class-section{
-        width: 61%;
+        width: 6%;
     }  
 }
 
